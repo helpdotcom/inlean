@@ -1,0 +1,25 @@
+{
+  "name": "inlean",
+  "version": "1.0.0",
+  "description": "Lean influxdb stats collector",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/test.js --cov"
+  },
+  "dependencies": {
+    "request": "~2.65.0"
+  },
+  "devDependencies": {
+    "tap": "~2.3.1"
+  },
+  "license": "MIT",
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helpdotcom/inlean"
+  },
+  "homepage": "https://github.com/helpdotcom/inlean",
+  "bugs": {
+    "url": "https://github.com/helpdotcom/inlean/issues"
+  }
+}
